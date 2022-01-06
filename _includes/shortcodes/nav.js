@@ -1,6 +1,6 @@
 const pages = {
     "/": "🏠 Home",
-    "/README/": "🙋🏻 About Me",
+    "/README/": "🙋🏻‍♂️ About Me",
     "/TIL/": "📝 Learnings"
 }
 
