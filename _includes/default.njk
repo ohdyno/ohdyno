@@ -1,5 +1,5 @@
 ---
-title: My Rad Blog
+title: Hi, I'm Xing
 ---
 
 <!doctype html>
@@ -8,6 +8,9 @@ title: My Rad Blog
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
+    <style>
+    {% include "sakura.css" %}
+    </style>
   </head>
   <body>
     {{ content | safe }}
