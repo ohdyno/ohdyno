@@ -4,3 +4,11 @@ nav ul {
     display: flex;
     justify-content: space-between;
 }
+
+[aria-current="page"]::before {
+    content: "["
+}
+
+[aria-current="page"]::after {
+    content: "]"
+}
