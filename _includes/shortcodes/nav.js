@@ -1,7 +1,7 @@
 const pages = {
     "/": "🏠 Home",
     "/README/": "🙋🏻‍♂️ About Me",
-    "/TIL/": "📝 Learnings"
+    "/musings/": "📝 Musings"
 }
 
 module.exports = function () {
