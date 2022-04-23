@@ -1,9 +1,9 @@
 exports.data = {
-  title: "Hi, I'm Xing"
+    title: "Hi, I'm Xing"
 }
 
 exports.render = function (data) {
-  return `
+    return `
     <!doctype html>
     <html lang="en">
       <head>
@@ -18,11 +18,18 @@ exports.render = function (data) {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
       </head>
-      <body>
+      <body class="site">
         ${this.nav(data.page)}
-        <section>
+        <section class="site-content">
         ${data.content}
         </section>
+        <nav id="footer">
+            <ul>
+                <li>source: <a href="https://github.com/ohdyno/ohdyno">GitHub</a></li>
+                <li>deployed and hosted on: <a href="https://netlify.com/">Netlify</a></li>
+                <li>statically generated with: <a href="https://www.11ty.dev/">11ty</a></li>
+            </ul>
+        </nav>
       </body>
     </html>
 `

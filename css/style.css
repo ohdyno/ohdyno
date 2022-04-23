@@ -12,3 +12,31 @@ nav ul {
 [aria-current="page"]::after {
     content: "]"
 }
+
+img {
+    border-radius: 50%;
+}
+
+#profile {
+    display: flex;
+    gap: 10px;
+}
+
+#profile section {
+    flex: 1;
+}
+
+.site {
+    display: flex;
+    min-height: 96vh;
+    flex-direction: column;
+}
+
+.site-content {
+    flex: 1;
+}
+
+#footer {
+    font-size: smaller;
+    color: gray;
+}
