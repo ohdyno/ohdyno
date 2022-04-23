@@ -1,0 +1,24 @@
+{
+  "name": "ohdyno",
+  "version": "1.0.0",
+  "description": "I'm Xing Zhou (he/him). I am a father, husband, and learner.",
+  "main": ".eleventy.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohdyno/ohdyno.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ohdyno/ohdyno/issues"
+  },
+  "homepage": "https://github.com/ohdyno/ohdyno#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  }
+}
