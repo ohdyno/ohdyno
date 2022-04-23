@@ -1,13 +1,15 @@
-### Hi there 👋
+# Hi there 👋
 
-I'm Xing Zhou (he/him).
+I'm Xing Zhou (he/him). I am a father, husband, and learner.
 
-I'm an software engineer enthusiastic about:
+I make a living developing software and mentoring software engineers.
+
+Within the realm of software engineering, I have experience and am enthusiastic about:
 - 🔄 hyper-iterative software development
 - 💻 software application design
 - 🫶 the humans involved in software product development
 
-My repositories are usually focused on teaching (to myself and/or others) concepts applicable to my day-to-day work, though some could be much more tangential. Feel free to use them as you see fit.
+My [GitHub](https://github.com/ohdyno) chronicles concepts I have learned and/or taught. Feel free to use any if you find them relevant.
 
 #### Currently Learning
 - how to identify activities that I absolutely love and incorporating more of it every day [resource](https://loveandwork.org/)
