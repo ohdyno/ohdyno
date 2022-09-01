@@ -5,7 +5,7 @@ exports.data = {
 function listMusings(data) {
     return data.collections.musings ? `
 <ul>
-  ${data.collections.musings.map(post => `<li><a href="${post.url}">${post.data.title}</a></li>`).join("\n")}
+  ${data.collections.musings.map(post => `<li><a href="${post.url}">${post.data.title}</a> - ${post.date.toLocaleDateString()}</li>`).join("\n")}
 </ul>
 ` : `</>`;
 }
